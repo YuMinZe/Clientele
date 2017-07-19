@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="88px"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/register_zuo"
+            android:layout_width="95px"
+            android:layout_height="88px"
+            android:src="@mipmap/wode_zuo"
+            android:padding="17px"/>
+
+        <TextView
+            android:layout_marginRight="95px"
+            android:layout_width="0px"
+            android:layout_height="88px"
+            android:layout_weight="1"
+            android:text="登录"
+            android:gravity="center"
+            android:textSize="36px"
+            android:textColor="#333333"
+            />
+
+    </com.zhy.autolayout.AutoLinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="3px"
+        android:background="#dddddd"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="#dddddd"/>
+    <ImageView
+        android:layout_width="200px"
+        android:layout_height="200px"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20px"
+        android:background="@mipmap/wode_denglu_logo"/>
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_marginTop="20px"
+        android:layout_marginLeft="32px"
+        android:layout_marginRight="32px"
+        android:layout_width="match_parent"
+        android:layout_height="300px"
+        android:orientation="vertical"
+        android:background="@mipmap/juxingbeijing">
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="130px"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="60px"
+                android:layout_height="60px"
+                android:layout_marginTop="38px"
+                android:layout_marginLeft="32px"
+                android:src="@mipmap/wode_denglu_shoujihao"/>
+            <EditText
+                android:id="@+id/wode_denglu_shoujihao"
+                android:layout_marginLeft="24px"
+                android:layout_width="match_parent"
+                android:layout_height="120px"
+                android:layout_margin="20px"
+                android:textColorHint="#999999"
+                android:textSize="32px"
+                android:singleLine="true"
+                android:hint="请输入您的手机号码"
+                />
+        </com.zhy.autolayout.AutoLinearLayout>
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="130px"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="60px"
+                android:layout_height="60px"
+                android:layout_marginTop="38px"
+                android:layout_marginLeft="32px"
+                android:src="@mipmap/wode_denglumima"/>
+            <EditText
+                android:id="@+id/wode_denglu_mima"
+                android:layout_marginLeft="24px"
+                android:layout_width="match_parent"
+                android:layout_height="120px"
+                android:layout_margin="20px"
+                android:textColorHint="#999999"
+                android:textSize="32px"
+                android:singleLine="true"
+                android:hint="请输入密码"
+                android:inputType="textPassword"/>
+        </com.zhy.autolayout.AutoLinearLayout>
+
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <Button
+        android:id="@+id/wode_denglu_denglu"
+        android:background="@mipmap/wode_denglu_anniu"
+        android:layout_width="match_parent"
+        android:layout_height="80px"
+        android:text="登录"
+        android:layout_marginLeft="130px"
+        android:layout_marginRight="130px"
+        android:layout_marginTop="100px"
+        android:textColor="#ffffff"
+        android:textSize="36px"/>
+    
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="40px">
+        
+        <TextView
+            android:id="@+id/wode_denglu_wangjimima"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="忘记密码?"
+            android:textColor="#ee4b7d"
+            android:layout_marginLeft="80px"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40px"
+            android:text="|"
+            android:textColor="#ee4b7d"
+            android:layout_marginLeft="20px"
+            />
+
+        <TextView
+            android:id="@+id/wode_denglu_zhuce"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="注册"
+            android:textColor="#169eff"
+            android:layout_marginLeft="20px"
+            />
+        
+    </com.zhy.autolayout.AutoLinearLayout>
+    
+</com.zhy.autolayout.AutoLinearLayout>

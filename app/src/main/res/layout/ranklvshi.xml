@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="4px"
+        android:background="#dddddd"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="72px"
+        android:text="-- 律师排行榜 --"
+        android:gravity="center"
+        android:textSize="32px"
+        android:textColor="#33a9fe"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="#dddddd"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rank_recycle"
+        />
+
+
+
+</com.zhy.autolayout.AutoLinearLayout>

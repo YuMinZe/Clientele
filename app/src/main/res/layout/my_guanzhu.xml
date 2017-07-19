@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="750px"
+              android:layout_height="243px">
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="750px"
+        android:layout_height="243px"
+        android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/wode_guanzhu_img"
+        android:layout_width="130px"
+        android:layout_height="130px"
+        android:src="@mipmap/wode_denglu_logo"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="30px"/>
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="590px"
+        android:layout_height="250px"
+        android:orientation="vertical"
+        android:layout_marginLeft="30px"
+        android:gravity="center_vertical"
+        >
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30px"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/wode_guanzhu_name"
+                android:layout_width="0dp"
+                android:layout_height="30px"
+                android:text="姓名:"
+                android:textSize="25px"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:id="@+id/wode_guanzhu_jingyan"
+                android:layout_width="80px"
+                android:layout_height="30px"
+                android:text="10年"
+                android:textSize="25px"
+                android:layout_marginRight="50px"
+                android:background="@mipmap/juhongbeijing"/>
+        </com.zhy.autolayout.AutoLinearLayout>
+
+
+        <TextView
+            android:id="@+id/wode_guanzhu_diyu"
+            android:layout_width="match_parent"
+            android:layout_height="30px"
+            android:textSize="25px"
+            android:text="地域:"
+            android:layout_marginTop="10px"/>
+
+        <TextView
+            android:layout_marginTop="10px"
+            android:id="@+id/wode_guanzhu_techang"
+            android:layout_width="match_parent"
+            android:layout_height="30px"
+            android:textSize="25px"
+            android:text="特长:"/>
+
+        <TextView
+            android:layout_marginTop="10px"
+            android:id="@+id/wode_guanzhu_danwei"
+            android:layout_width="match_parent"
+            android:layout_height="30px"
+            android:textSize="25px"
+            android:text="单位:"/>
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45px"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="30px"
+                android:layout_weight="1"/>
+            <TextView
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:id="@+id/wode_guanzhu_guanzhu"
+                android:layout_width="110px"
+                android:layout_height="45px"
+                android:text="取消关注"
+                android:textSize="25px"
+                android:layout_marginRight="50px"
+                android:layout_marginBottom="30px"
+                android:background="@mipmap/wode_denglu_anniu"/>
+
+
+        </com.zhy.autolayout.AutoLinearLayout>
+
+    </com.zhy.autolayout.AutoLinearLayout>
+
+
+    </com.zhy.autolayout.AutoLinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="#dddddd"/>
+</com.zhy.autolayout.AutoLinearLayout>

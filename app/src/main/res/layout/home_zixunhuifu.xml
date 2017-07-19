@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="240px">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="#dddddd"/>
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        >
+
+        <ImageView
+            android:id="@+id/shouye_zixunhuifu_touxiang"
+            android:layout_width="68px"
+            android:layout_height="68px"
+            android:src="@mipmap/wode_denglu_logo"
+            android:layout_marginLeft="20px"
+            />
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="88px"
+            android:orientation="vertical"
+            android:layout_marginLeft="20px">
+            <com.zhy.autolayout.AutoRelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="88px">
+
+                <TextView
+                    android:textSize="32px"
+                    android:textColor="#727272"
+                    android:id="@+id/shouye_zixunhuifu_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="54px"
+                    android:text="律师姓名"
+                    android:gravity="center_vertical"/>
+
+                <TextView
+                    android:layout_below="@+id/shouye_zixunhuifu_name"
+                    android:textSize="28px"
+                    android:textColor="#A6A6A6"
+                    android:id="@+id/shouye_zixunhuifu_timer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="34px"
+                    android:text="发布时间"
+                    android:gravity="center_vertical"
+                    />
+
+                <TextView
+                    android:id="@+id/zixun_yicaina"
+                    android:layout_width="140px"
+                    android:layout_height="120px"
+                    android:background="@mipmap/zixun_yicaina"
+                    android:layout_alignParentRight="true"
+                    android:textSize="36px"
+                    android:layout_marginRight="24px"
+                    android:gravity="center"
+                    android:textColor="#ff0000"/>
+
+            </com.zhy.autolayout.AutoRelativeLayout>
+
+
+        </com.zhy.autolayout.AutoLinearLayout>
+
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <TextView
+        android:id="@+id/shouye_zixunhuifu_message"
+        android:layout_width="match_parent"
+        android:layout_height="70px"
+        android:text="回复内容:"
+        android:layout_marginLeft="110px"
+        android:layout_marginRight="20px"/>
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        >
+       <TextView
+           android:layout_width="700px"
+           android:layout_height="wrap_content"
+           android:layout_weight="1"/>
+        <TextView
+            android:textSize="28px"
+            android:gravity="center"
+            android:id="@+id/shouye_zixunhuifu_caina"
+            android:layout_width="110px"
+            android:layout_height="60px"
+            android:text="采纳"
+            android:layout_marginRight="35px"/>
+
+        <TextView
+            android:textSize="28px"
+            android:gravity="center"
+            android:id="@+id/shouye_zixunhuifu_zhaota"
+            android:layout_width="80px"
+            android:layout_height="60px"
+            android:text="找TA"
+            android:layout_marginRight="35px"/>
+    </com.zhy.autolayout.AutoLinearLayout>
+
+</com.zhy.autolayout.AutoLinearLayout>

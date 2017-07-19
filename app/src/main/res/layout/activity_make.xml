@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="88px"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/yuyuelvshi_guanbi"
+            android:layout_width="95px"
+            android:layout_height="88px"
+            android:src="@mipmap/wode_zuo"
+            android:padding="17px"/>
+
+
+        <TextView
+            android:layout_width="0px"
+            android:layout_height="88px"
+            android:layout_weight="1"
+            android:text="预约律师"
+            android:gravity="center"
+            android:textSize="36px"
+            android:textColor="#333333"
+            android:layout_marginRight="95px"/>
+
+    </com.zhy.autolayout.AutoLinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="3px"
+        android:background="#dddddd"/>
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120px"
+        android:orientation="horizontal"
+        android:layout_marginTop="20px"
+        android:background="#ffffff">
+
+        <ImageView
+            android:id="@+id/yuyuelvshi_touxiang"
+            android:layout_width="80px"
+            android:layout_height="80px"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="24px"
+            android:src="@mipmap/wode_denglu_logo"/>
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20px"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_marginLeft="10px">
+
+            <TextView
+                android:id="@+id/yuyuelvshi_name"
+                android:textSize="24px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="中律联"
+                android:textColor="#333333"/>
+
+            <TextView
+                android:id="@+id/yuyuelvshi_shiwusuo"
+                android:textSize="24px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="北京律师事务所"
+                android:textColor="#333333"
+                android:layout_marginTop="10px"/>
+
+        </com.zhy.autolayout.AutoLinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@mipmap/dingweibiao"
+            android:layout_marginRight="10px"/>
+
+        <TextView
+            android:id="@+id/yuyuelvshi_suozaidi"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:layout_marginRight="24px"
+            android:text="律师所在的地点"
+            android:textSize="24px"
+            android:textColor="#333333"/>
+
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="154px"
+        android:orientation="horizontal"
+        android:background="#f2f2f2">
+
+        <com.zhy.autolayout.AutoRelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/iv"
+                android:layout_width="40px"
+                android:layout_height="40px"
+                android:src="@mipmap/feiquerenqiu"
+                android:layout_centerInParent="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="3px"
+                android:background="#dddddd"
+                android:layout_toRightOf="@id/iv"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="填写信息"
+                android:gravity="center_horizontal"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="20px"
+                android:textColor="#333333"
+                android:textSize="28px"/>
+
+        </com.zhy.autolayout.AutoRelativeLayout>
+
+        <com.zhy.autolayout.AutoRelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/iv1"
+                android:layout_width="40px"
+                android:layout_height="40px"
+                android:src="@mipmap/quedingqiu"
+                android:layout_centerInParent="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="3px"
+                android:background="#dddddd"
+                android:layout_toRightOf="@id/iv1"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="3px"
+                android:background="#dddddd"
+                android:layout_toLeftOf="@id/iv1"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="支付金额"
+                android:gravity="center_horizontal"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="20px"
+                android:textColor="#333333"
+                android:textSize="28px"/>
+
+
+        </com.zhy.autolayout.AutoRelativeLayout>
+
+        <com.zhy.autolayout.AutoRelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/iv2"
+                android:layout_width="40px"
+                android:layout_height="40px"
+                android:src="@mipmap/quedingqiu"
+                android:layout_centerInParent="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="3px"
+                android:background="#dddddd"
+                android:layout_toRightOf="@id/iv2"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="3px"
+                android:background="#dddddd"
+                android:layout_toLeftOf="@id/iv2"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="约定时间"
+                android:gravity="center_horizontal"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="20px"
+                android:textColor="#333333"
+                android:textSize="28px"/>
+
+
+        </com.zhy.autolayout.AutoRelativeLayout>
+
+        <com.zhy.autolayout.AutoRelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/iv3"
+                android:layout_width="40px"
+                android:layout_height="40px"
+                android:src="@mipmap/quedingqiu"
+                android:layout_centerInParent="true"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="3px"
+                android:background="#dddddd"
+                android:layout_toLeftOf="@id/iv3"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="见面约谈"
+                android:gravity="center_horizontal"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="20px"
+                android:textColor="#333333"
+                android:textSize="28px"/>
+
+
+        </com.zhy.autolayout.AutoRelativeLayout>
+
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="#f2f2f2"/>
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120px">
+
+        <ImageView
+            android:id="@+id/fuwubiao"
+            android:layout_width="70px"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/fuwufeibiao"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="24px"/>
+
+        <TextView
+            android:layout_marginLeft="20px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="服务价格:  ￥500.0/次"
+            android:textSize="30px"
+            android:textColor="#333333"
+            android:layout_toRightOf="@id/fuwubiao"
+            android:layout_marginTop="30px"
+            android:id="@+id/yuyuelvshi_fuwufei"/>
+
+        <TextView
+            android:layout_marginLeft="20px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18px"
+            android:textColor="#666666"
+            android:text="(线下见面时间,将在律师同意后与您商定)"
+            android:layout_toRightOf="@id/fuwubiao"
+            android:layout_marginTop="70px"/>
+
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="#f2f2f2"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="需求描述:"
+        android:textSize="30px"
+        android:textColor="#333333"
+        android:layout_marginLeft="24px"
+        android:layout_margin="40px"/>
+
+    <EditText
+        android:id="@+id/yuyuelvshi_neirong"
+        android:layout_width="702px"
+        android:layout_height="400px"
+        android:enabled="true"
+        android:gravity="top"
+        android:inputType="textMultiLine"
+        android:scrollbars="vertical"
+        android:layout_marginLeft="24px"
+        android:layout_marginRight="24px"
+        android:background="@mipmap/wenbenyubg"
+        android:padding="24px"/>
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="14px"
+        android:layout_marginLeft="24px">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="姓名 :  "
+            android:layout_gravity="center_vertical"/>
+
+        <EditText
+            android:paddingLeft="24px"
+            android:id="@+id/yuyuelvshi_khname"
+            android:layout_width="500px"
+            android:layout_height="70px"
+            android:layout_marginRight="24px"
+            android:textColorHint="#999999"
+            android:background="@mipmap/shuruxingming"
+            android:textSize="32px"/>
+
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_marginLeft="24px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="14px">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="手机 :  "
+            android:layout_gravity="center_vertical"/>
+
+        <EditText
+            android:textSize="32px"
+            android:paddingLeft="24px"
+            android:id="@+id/yuyuelvshi_khphoto"
+            android:layout_width="500px"
+            android:layout_height="70px"
+            android:layout_marginRight="24px"
+            android:textColorHint="#999999"
+            android:background="@mipmap/shuruxingming"
+            />
+
+    </com.zhy.autolayout.AutoLinearLayout>
+
+            <Button
+                android:id="@+id/yuyuelvshi_tijiao"
+                android:layout_width="700px"
+                android:layout_height="70px"
+                android:text="提交并支付"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="40px"
+                android:background="@mipmap/wode_denglu_anniu"
+                android:textColor="#ffffff"
+                android:textSize="32px"/>
+
+        </com.zhy.autolayout.AutoLinearLayout>
+    </ScrollView>
+
+</com.zhy.autolayout.AutoLinearLayout>

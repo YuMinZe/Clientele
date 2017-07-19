@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+    android:id="@+id/infor_recyc_ll">
+
+
+    <com.zll.wuye.fragment.information.dian.BGABadgeImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/infor_recyc_touxiang"
+        android:layout_width="120px"
+        android:layout_height="120px"
+        android:layout_marginTop="14px"
+       android:layout_marginLeft="20px"
+        android:padding="5px"
+        app:badge_gravity="rightTop"
+        app:badge_dragable="true"
+        app:badge_padding="5dp"
+        android:src="@mipmap/wode_denglu_logo"/>
+
+    <TextView
+        android:layout_marginRight="24px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="内容爱上了办法了撒百分比撒开了发送咖啡不拉屎咖啡不拉屎不发了萨菲包括巴萨了罚款撒"
+        android:layout_marginLeft="144px"
+        android:layout_marginTop="24px"
+        android:id="@+id/infor_recyc_message"
+        android:textSize="32px"
+        android:textColor="#727272"
+        />
+
+    <TextView
+        android:layout_below="@+id/infor_recyc_message"
+        android:textSize="28px"
+        android:textColor="#727272"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="时间"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="24px"
+        android:layout_marginBottom="24px"
+        android:id="@+id/infor_recyc_time"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:layout_alignParentBottom="true"
+        android:background="#dddddd"/>
+
+</com.zhy.autolayout.AutoRelativeLayout>

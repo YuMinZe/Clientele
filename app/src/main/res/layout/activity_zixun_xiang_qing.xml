@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="88px"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/shouye_xiangqing_zuo"
+            android:layout_width="95px"
+            android:layout_height="88px"
+            android:src="@mipmap/wode_zuo"
+            android:padding="17px"/>
+
+        <TextView
+            android:layout_marginRight="95px"
+            android:layout_width="0px"
+            android:layout_height="88px"
+            android:layout_weight="1"
+            android:text="咨询详情"
+            android:gravity="center"
+            android:textSize="36px"
+            android:textColor="#333333"
+            />
+
+    </com.zhy.autolayout.AutoLinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="3px"
+        android:background="#dddddd"/>
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="170px"
+        android:orientation="vertical">
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/shouye_zixunxiangqing_touxiang"
+                android:layout_width="68px"
+                android:layout_height="68px"
+                android:src="@mipmap/wode_denglu_logo"
+                android:layout_marginLeft="20px"
+                />
+
+            <com.zhy.autolayout.AutoLinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80px"
+                android:orientation="vertical"
+                android:layout_marginLeft="20px">
+
+                <TextView
+                    android:textSize="32px"
+                    android:textColor="#727272"
+                    android:id="@+id/shouye_zixunxiangqing_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="40px"
+                    android:text="用户姓名"
+                    android:gravity="center_vertical"/>
+
+                <TextView
+                    android:textSize="28px"
+                    android:textColor="#A6A6A6"
+                    android:id="@+id/shouye_zixunxiangqing_timer"
+                    android:layout_width="match_parent"
+                    android:layout_height="40px"
+                    android:text="发布时间"
+                    android:gravity="center_vertical"/>
+
+            </com.zhy.autolayout.AutoLinearLayout>
+
+        </com.zhy.autolayout.AutoLinearLayout>
+
+        <TextView
+            android:id="@+id/shouye_zixunxiangqing_message"
+            android:layout_width="match_parent"
+            android:layout_height="70px"
+            android:text="问题内容:"
+            android:layout_marginLeft="108px"
+            android:layout_marginRight="20px"/>
+
+    </com.zhy.autolayout.AutoLinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="3px"
+        android:background="#dddddd"/>
+    <com.cjj.MaterialRefreshLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:id="@+id/shouye_xiangqing_mater"
+        app:overlay="false"
+        app:wave_show="true"
+        app:wave_color="@color/material_green"
+        app:wave_height_type="higher">
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/shouye_xiangqing_recycle">
+        </android.support.v7.widget.RecyclerView>
+    </com.cjj.MaterialRefreshLayout>
+
+    <TextView
+        android:id="@+id/shouye_xiangqing_shangla"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="已加载全部内容"
+        android:textSize="24px"
+        android:gravity="center"/>
+
+</com.zhy.autolayout.AutoLinearLayout>

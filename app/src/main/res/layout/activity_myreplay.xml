@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="88px"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/wode_zixun_fanhui"
+            android:layout_width="95px"
+            android:layout_height="88px"
+            android:src="@mipmap/wode_zuo"
+            android:padding="17px"/>
+
+        <TextView
+            android:layout_marginRight="95px"
+            android:layout_width="0px"
+            android:layout_height="88px"
+            android:layout_weight="1"
+            android:text="我的咨询"
+            android:gravity="center"
+            android:textSize="36px"
+            android:textColor="#333333"
+            />
+
+    </com.zhy.autolayout.AutoLinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="3px"
+        android:background="#dddddd"/>
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="78px"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/wode_zixun_mianfeizixun"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="免费咨询"
+            android:textColor="#333333"
+            android:background="#ffffff"
+            android:textSize="32px"/>
+
+        <TextView
+            android:layout_width="2px"
+            android:layout_height="match_parent"
+            android:background="#dddddd"/>
+
+        <Button
+            android:id="@+id/wode_zixun_dianhua"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="电话咨询"
+            android:textColor="#333333"
+            android:background="#ffffff"
+            android:textSize="32px"/>
+
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/wode_zixun_mianfeitv"
+            android:layout_width="0px"
+            android:layout_height="2px"
+            android:layout_weight="1"
+            android:background="#39a7b6"/>
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/wode_zixun_dianhuatv"
+            android:layout_width="0px"
+            android:layout_height="2px"
+            android:layout_weight="1"
+            android:background="#39a7b6"/>
+
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <com.zhy.autolayout.AutoFrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/wode_zixun_frame"/>
+</com.zhy.autolayout.AutoLinearLayout>

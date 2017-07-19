@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="none_color">#00000000</color>
+    <color name="bule_overlay">#660D92DD</color>
+    <color name="text_color">#58B2BB</color>
+    <color name="text_color2">#626262</color>
+
+    <color name="material_blue_500">#009688</color>
+
+    <color name="pop_yes">#4CADBC</color>
+    <color name="pop_no">#333333</color>
+    <color name="pop_bg">#797979</color>
+
+    <color name="button_no">#333333</color>
+    <color name="button_yes">#34A5B5</color>
+</resources>

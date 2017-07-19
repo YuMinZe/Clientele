@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="392px"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20px"
+        />
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="372px"
+        android:orientation="vertical"
+        android:background="@mipmap/juxingbeijing">
+
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="72px"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="24px">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="订单金额:  "
+            android:textSize="32px"/>
+
+        <TextView
+            android:id="@+id/wode_dingdan_jine"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="123456"
+            android:textSize="32px"
+            android:textColor="#666666"/>
+
+        <Button
+            android:visibility="visible"
+            android:id="@+id/wode_dingdan_lijipingjia"
+            android:layout_width="180px"
+            android:layout_height="42px"
+            android:text="立即评价"
+            android:layout_marginRight="24px"
+            android:background="@mipmap/juhongbeijing"
+            android:textColor="#ffffff"
+            android:textSize="32px"/>
+
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <TextView
+        android:layout_width="750px"
+        android:layout_height="2px"
+        android:background="#dddddd"
+        android:layout_marginLeft="24px"
+        android:layout_marginRight="24px"/>
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="750px"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="24px">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="订单编号:  "
+            android:textSize="28px"/>
+
+        <TextView
+            android:id="@+id/wode_dingdan_bianhao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1000000000"
+            android:textSize="28px"
+            android:textColor="#666666"/>
+
+
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="750px"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="24px">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="订单内容:  "
+            android:textSize="28px"/>
+
+        <TextView
+            android:id="@+id/wode_dingdan_neirong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="电话咨询"
+            android:textSize="28px"
+            android:textColor="#666666"/>
+
+
+    </com.zhy.autolayout.AutoLinearLayout>
+
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="750px"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="24px">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="订单方式:  "
+            android:textSize="28px"/>
+
+        <TextView
+            android:id="@+id/wode_dingdan_fangshi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="支付宝"
+            android:textSize="28px"
+            android:textColor="#666666"/>
+
+
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="750px"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="24px">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="订单状态:  "
+            android:textSize="28px"/>
+
+        <TextView
+            android:id="@+id/wode_dingdan_zhuangtai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="未支付"
+            android:textSize="28px"
+            android:textColor="#666666"/>
+
+
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="750px"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="24px">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="订单时间:  "
+            android:textSize="28px"/>
+
+        <TextView
+            android:id="@+id/wode_dingdan_timer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2017-05-05"
+            android:textSize="28px"
+            android:textColor="#666666"/>
+
+
+    </com.zhy.autolayout.AutoLinearLayout>
+    </com.zhy.autolayout.AutoLinearLayout>
+</com.zhy.autolayout.AutoLinearLayout>

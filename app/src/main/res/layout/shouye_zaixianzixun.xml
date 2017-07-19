@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/shouye_zaixianzixun_zong">
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+        
+        <ImageView
+            android:layout_width="68px"
+            android:layout_height="68px"
+            android:src="@mipmap/wode_denglu_logo"
+            android:layout_marginLeft="24px"
+            android:id="@+id/shouye_zaixianzixun_touxiang"/>
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80px"
+            android:orientation="vertical"
+            android:layout_marginLeft="20px">
+
+            <TextView
+                android:textColor="#929292"
+                android:textSize="32px"
+                android:id="@+id/shouye_zaixianzixun_name"
+                android:layout_width="match_parent"
+                android:layout_height="40px"
+                android:text="用户姓名"
+                android:gravity="center_vertical"/>
+
+            <TextView
+                android:textColor="#929292"
+                android:textSize="28px"
+                android:id="@+id/shouye_zaixianzixun_time"
+                android:layout_width="match_parent"
+                android:layout_height="40px"
+                android:text="发布时间"
+                android:gravity="center_vertical"/>
+
+        </com.zhy.autolayout.AutoLinearLayout>
+        
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <TextView
+        android:id="@+id/shouye_zaixianzixun_message"
+        android:layout_width="match_parent"
+        android:layout_height="80px"
+        android:text="问题内容:"
+        android:layout_marginLeft="24px"
+        android:layout_marginRight="20px"/>
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50px"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20px"
+        android:gravity="center_vertical">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="30px"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="28px"
+            android:src="@mipmap/xiaodengpao"
+            android:layout_marginRight="10px"/>
+
+        <TextView
+            android:textSize="28px"
+            android:id="@+id/shouye_zaixianzixun_huida"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2人回答"
+            android:layout_marginRight="20px"/>
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="#dddddd"
+        />
+
+</com.zhy.autolayout.AutoLinearLayout>

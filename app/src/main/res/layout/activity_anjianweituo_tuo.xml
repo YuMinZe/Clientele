@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f2f2f2">
+
+
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="88px"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/shouye_weituoxiangqing_zuo"
+            android:layout_width="95px"
+            android:layout_height="88px"
+            android:src="@mipmap/wode_zuo"
+            android:padding="17px"/>
+
+        <TextView
+            android:layout_marginRight="95px"
+            android:layout_width="0px"
+            android:layout_height="78px"
+            android:layout_weight="1"
+            android:text="案件委托介绍"
+            android:gravity="center"
+            android:textSize="36px"
+            android:textColor="#333333"
+            />
+
+    </com.zhy.autolayout.AutoLinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="3px"
+        android:background="#dddddd"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="154px"
+        android:orientation="horizontal"
+        android:background="#f2f2f2">
+
+        <com.zhy.autolayout.AutoRelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/iv"
+                android:layout_width="40px"
+                android:layout_height="40px"
+                android:src="@mipmap/feiquerenqiu"
+                android:layout_centerInParent="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="3px"
+                android:background="#dddddd"
+                android:layout_toRightOf="@id/iv"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="描述委托"
+                android:gravity="center_horizontal"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="20px"
+                android:textColor="#333333"
+                android:textSize="28px"/>
+
+        </com.zhy.autolayout.AutoRelativeLayout>
+
+        <com.zhy.autolayout.AutoRelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/iv1"
+                android:layout_width="40px"
+                android:layout_height="40px"
+                android:src="@mipmap/quedingqiu"
+                android:layout_centerInParent="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="3px"
+                android:background="#dddddd"
+                android:layout_toRightOf="@id/iv1"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="3px"
+                android:background="#dddddd"
+                android:layout_toLeftOf="@id/iv1"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="支付定金"
+                android:gravity="center_horizontal"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="20px"
+                android:textColor="#333333"
+                android:textSize="28px"/>
+
+
+        </com.zhy.autolayout.AutoRelativeLayout>
+
+        <com.zhy.autolayout.AutoRelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/iv2"
+                android:layout_width="40px"
+                android:layout_height="40px"
+                android:src="@mipmap/quedingqiu"
+                android:layout_centerInParent="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="3px"
+                android:background="#dddddd"
+                android:layout_toRightOf="@id/iv2"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="3px"
+                android:background="#dddddd"
+                android:layout_toLeftOf="@id/iv2"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="律师竞标"
+                android:gravity="center_horizontal"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="20px"
+                android:textColor="#333333"
+                android:textSize="28px"/>
+
+
+        </com.zhy.autolayout.AutoRelativeLayout>
+
+        <com.zhy.autolayout.AutoRelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/iv3"
+                android:layout_width="40px"
+                android:layout_height="40px"
+                android:src="@mipmap/quedingqiu"
+                android:layout_centerInParent="true"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="3px"
+                android:background="#dddddd"
+                android:layout_toLeftOf="@id/iv3"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="选择律师"
+                android:gravity="center_horizontal"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="20px"
+                android:textColor="#333333"
+                android:textSize="28px"/>
+
+
+        </com.zhy.autolayout.AutoRelativeLayout>
+
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="#dddddd"/>
+
+    <EditText
+        android:id="@+id/weituoxiangqing_title"
+        android:layout_width="602px"
+        android:layout_height="60px"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20px"
+        android:paddingLeft="10px"
+        android:hint="在此填写案件标题"
+        android:textSize="28px"
+        android:background="@mipmap/wenbenyubg"/>
+
+    <EditText
+        android:id="@+id/weituoxiangqing_message"
+        android:enabled="true"
+        android:gravity="top"
+        android:layout_width="602px"
+        android:layout_height="200px"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20px"
+        android:padding="10px"
+        android:hint="请简要描述案件的基本情况（如时间、地点、案由、目前进展等）"
+        android:textSize="28px"
+        android:background="@mipmap/wenbenyubg"/>
+    
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="602px"
+        android:layout_height="100px"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="3px">
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:id="@+id/weituoxiangqing_didian"
+            android:layout_width="0dp"
+            android:layout_height="100px"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:background="@mipmap/wenbenyubg"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="50px"
+                android:layout_height="50px"
+                android:src="@mipmap/dingweibiao"
+                android:layout_marginLeft="20px"/>
+
+            <TextView
+                android:id="@+id/weituoxiangqing_didiantv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20px"
+                android:text="诉讼地点"
+                android:textColor="#333333"
+                android:textSize="28px"/>
+
+        </com.zhy.autolayout.AutoLinearLayout>
+
+        <TextView
+            android:layout_width="3px"
+            android:layout_height="100px"
+            android:background="#f2f2f2"/>
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:id="@+id/weituoxiangqing_leixing"
+            android:layout_width="0dp"
+            android:layout_height="100px"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:background="@mipmap/wenbenyubg"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="50px"
+                android:layout_height="50px"
+                android:src="@mipmap/caidan"
+                android:layout_marginLeft="20px"/>
+
+            <TextView
+                android:id="@+id/weituoxiangqing_leixingtv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20px"
+                android:text="案例类型"
+                android:textColor="#333333"
+                android:textSize="28px"/>
+
+        </com.zhy.autolayout.AutoLinearLayout>
+
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:id="@+id/weituoxiangqing_shangchuan"
+        android:layout_width="602px"
+        android:layout_height="210px"
+        android:orientation="horizontal"
+        android:background="@mipmap/wenbenyubg"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="3px"
+        >
+
+        <ImageView
+            android:layout_width="50px"
+            android:layout_height="50px"
+            android:src="@mipmap/shangchuantupian"
+            android:layout_marginLeft="88px"
+            android:layout_marginTop="20px"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="163px"
+            android:text="上传图片"
+            android:textColor="#333333"
+            android:layout_marginTop="20px"
+            android:textSize="28px"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18px"
+            android:layout_marginLeft="163px"
+            android:layout_marginTop="58px"
+            android:textColor="#999999"
+            android:text="上传图片的格式JPG/PNG,文件不过10M,仅限4张"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="110px"
+            android:layout_marginTop="90px"
+            android:id="@+id/weituoxiangqing_scdtp"/>
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="#dddddd"
+        android:layout_marginTop="20px"/>
+
+        <TextView
+            android:textSize="32px"
+            android:layout_marginLeft="24px"
+            android:layout_marginTop="20px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我的报价"
+            android:textColor="#3AA5B1"/>
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:orientation="horizontal">
+
+        <EditText
+            android:textSize="28px"
+            android:id="@+id/weituoxiangqing_xiao"
+            android:layout_width="200px"
+            android:layout_height="40px"
+            android:layout_marginLeft="154px"
+            android:hint="1000"
+            android:background="@mipmap/wenbenyubg"
+            android:gravity="center"
+            android:layout_marginTop="30px"/>
+        
+        <TextView
+            android:layout_width="40px"
+            android:layout_height="5px"
+            android:background="#dddddd"
+            android:layout_marginTop="40px"/>
+
+        <EditText
+            android:textSize="28px"
+            android:layout_marginTop="30px"
+            android:id="@+id/weituoxiangqing_da"
+            android:layout_width="200px"
+            android:layout_height="40px"
+            android:hint="2000"
+            android:background="@mipmap/wenbenyubg"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+        
+        <ImageView
+            android:layout_width="56px"
+            android:layout_height="56px"
+            android:src="@mipmap/qian"
+            android:layout_marginTop="10px"
+            android:layout_marginRight="24px"/>
+
+    </com.zhy.autolayout.AutoLinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="#dddddd"/>
+        <TextView
+            android:textSize="32px"
+            android:layout_marginLeft="24px"
+            android:layout_marginTop="20px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="联系方式"
+            android:textColor="#3AA5B1"/>
+    <EditText
+        android:id="@+id/weituoxiangqing_name"
+        android:layout_width="match_parent"
+        android:layout_height="70px"
+        android:hint="您的姓名"
+        android:paddingLeft="10px"
+        android:layout_marginLeft="24px"
+        android:layout_marginRight="24px"
+        android:layout_gravity="center_horizontal"
+        android:background="@mipmap/wenbenyubg"
+        android:textSize="28px"/>
+
+    <EditText
+        android:layout_marginLeft="24px"
+        android:layout_marginRight="24px"
+        android:id="@+id/weituoxiangqing_photo"
+        android:layout_width="match_parent"
+        android:layout_height="70px"
+        android:layout_marginTop="20px"
+        android:hint="您的手机号"
+        android:paddingLeft="10px"
+        android:layout_gravity="center_horizontal"
+        android:background="@mipmap/wenbenyubg"
+        android:textSize="28px"/>
+
+    <Button
+        android:id="@+id/weituoxiangqing_tijiao"
+        android:textSize="32px"
+        android:layout_width="700px"
+        android:layout_height="70px"
+        android:text="提交并支付"
+        android:layout_marginTop="40px"
+        android:background="@mipmap/wode_denglu_anniu"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ffffff"/>
+
+        <TextView
+            android:layout_marginBottom="200px"
+            android:layout_width="500px"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30px"
+            android:textColor="#666666"
+            android:textSize="28px"
+            android:text="*为了保障委托的真实性和律师的权益，您需要支付“委托保证金”，委托保证金将包含在您的委托律师费中，有律师参与竞选时，委托金不会退还"/>
+
+    </com.zhy.autolayout.AutoLinearLayout>
+    </ScrollView>
+
+</com.zhy.autolayout.AutoLinearLayout>

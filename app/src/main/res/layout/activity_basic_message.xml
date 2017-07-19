@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="88px"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/wode_xinxi_fanhui"
+            android:layout_width="95px"
+            android:layout_height="88px"
+            android:src="@mipmap/wode_zuo"
+            android:padding="17px"/>
+
+        <TextView
+            android:layout_marginRight="95px"
+            android:layout_width="0px"
+            android:layout_height="88px"
+            android:layout_weight="1"
+            android:text="个人信息"
+            android:gravity="center"
+            android:textSize="36px"
+            android:textColor="#333333"
+            />
+
+    </com.zhy.autolayout.AutoLinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="3px"
+        android:background="#dddddd"/>
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:orientation="horizontal"
+        android:id="@+id/wode_xinxi_touxiangxiugai">
+
+        <TextView
+            android:layout_width="0px"
+            android:layout_height="100px"
+            android:layout_weight="1"
+            android:text="头像"
+            android:textColor="#39a7b6"
+            android:gravity="center_vertical"
+            android:paddingLeft="24px"
+            android:textSize="32px"/>
+        <ImageView
+            android:layout_width="68px"
+            android:layout_height="68px"
+            android:layout_marginTop="16px"
+            android:layout_marginRight="40px"
+            android:background="#39a7b6"
+            android:id="@+id/wode_xinxi_touxiang"/>
+
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/wode_you"
+            android:layout_marginRight="24px"/>
+
+    </com.zhy.autolayout.AutoLinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="#dddddd"/>
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:orientation="horizontal"
+        android:id="@+id/wode_xinxi_nichengxiugai">
+
+        <TextView
+            android:gravity="center_vertical"
+            android:layout_width="0px"
+            android:layout_height="100px"
+            android:layout_weight="1"
+            android:text="昵称"
+            android:textColor="#39a7b6"
+            android:paddingLeft="24px"
+            android:textSize="32px"/>
+        <TextView
+            android:id="@+id/wode_xinxi_nicheng"
+            android:text="183xxxx5124"
+            android:gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="100px"
+            android:layout_marginRight="40px"
+            android:textColor="#b5b5b5"/>
+
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/wode_you"
+            android:layout_marginRight="24px"/>
+
+    </com.zhy.autolayout.AutoLinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="#dddddd"/>
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:orientation="horizontal"
+        android:id="@+id/wode_xinxi_xingbiexiugai">
+
+        <TextView
+            android:gravity="center_vertical"
+            android:layout_width="0px"
+            android:layout_height="100px"
+            android:layout_weight="1"
+            android:text="性别"
+            android:textColor="#39a7b6"
+            android:paddingLeft="24px"
+            android:textSize="32px"/>
+        <TextView
+            android:id="@+id/wode_xinxi_xingbie"
+            android:textSize="32px"
+            android:text="未填写"
+            android:gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="100px"
+            android:layout_marginRight="40px"
+            android:textColor="#b5b5b5"/>
+
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/wode_you"
+            android:layout_marginRight="24px"/>
+
+    </com.zhy.autolayout.AutoLinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="#dddddd"/>
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:orientation="horizontal"
+        android:id="@+id/wode_xinxi_dizhixiugai">
+
+        <TextView
+            android:gravity="center_vertical"
+            android:layout_width="0px"
+            android:layout_height="100px"
+            android:layout_weight="1"
+            android:text="地址"
+            android:textColor="#39a7b6"
+            android:paddingLeft="24px"
+            android:textSize="32px"/>
+        <TextView
+            android:id="@+id/wode_xinxi_dizhi"
+            android:text="北京海淀"
+            android:gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="100px"
+            android:layout_marginRight="40px"
+            android:textColor="#b5b5b5"/>
+
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/wode_you"
+            android:layout_marginRight="24px"/>
+
+    </com.zhy.autolayout.AutoLinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="#dddddd"/>
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:orientation="horizontal"
+        android:id="@+id/wode_xinxi_xiugaimima">
+
+        <TextView
+            android:gravity="center_vertical"
+            android:layout_width="0px"
+            android:layout_height="100px"
+            android:layout_weight="1"
+            android:text="修改登录密码"
+            android:textColor="#39a7b6"
+            android:paddingLeft="24px"
+            android:textSize="32px"/>
+
+
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/wode_you"
+            android:layout_marginRight="24px"/>
+
+    </com.zhy.autolayout.AutoLinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="#dddddd"/>
+
+</com.zhy.autolayout.AutoLinearLayout>

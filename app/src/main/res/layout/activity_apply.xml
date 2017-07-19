@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="88px"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/shouye_apply_zuo"
+            android:layout_width="95px"
+            android:layout_height="88px"
+            android:src="@mipmap/wode_zuo"
+            android:padding="17px"/>
+
+        <TextView
+            android:layout_marginRight="95px"
+            android:layout_width="0px"
+            android:layout_height="78px"
+            android:layout_weight="1"
+            android:text="报名"
+            android:gravity="center"
+            android:textSize="36px"
+            android:textColor="#333333"
+            />
+
+    </com.zhy.autolayout.AutoLinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="3px"
+        android:background="#dddddd"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300px"
+        android:src="@mipmap/jiangshishenqing4"
+        android:scaleType="fitXY"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#666666"
+        android:textSize="24px"
+        android:padding="24px"
+        android:text="如果您需要法律培训服务,请留下您的联系方式,我们会尽快和您取得联系,沟通具体事宜。"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="70px"
+        android:hint="您的姓名"
+        android:background="@mipmap/wenbenyubg"
+        android:layout_marginLeft="24px"
+        android:layout_marginRight="24px"
+        android:layout_marginTop="20px"
+        android:textColorHint="#999999"
+        android:textSize="32px"
+        android:id="@+id/shouye_apply_name"/>
+
+    <EditText
+        android:id="@+id/shouye_apply_photo"
+        android:layout_width="match_parent"
+        android:layout_height="70px"
+        android:hint="请输入手机号"
+        android:background="@mipmap/wenbenyubg"
+        android:layout_marginLeft="24px"
+        android:layout_marginRight="24px"
+        android:layout_marginTop="20px"
+        android:textColorHint="#999999"
+        android:textSize="32px"/>
+
+
+    <Button
+        android:layout_width="700px"
+        android:layout_height="70px"
+        android:background="@mipmap/wode_denglu_anniu"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="80px"
+        android:text="提交"
+        android:textColor="#ffffff"
+        android:textSize="36px"
+        android:id="@+id/shouye_apply_tijiao"/>
+
+</com.zhy.autolayout.AutoLinearLayout>

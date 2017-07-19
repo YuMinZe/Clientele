@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:id="@+id/video_recycle_ll">
+
+    <ImageView
+        android:background="@mipmap/lvshixiangqing_bj"
+        android:layout_width="match_parent"
+        android:layout_height="300px"
+        android:layout_marginLeft="24px"
+        android:layout_marginRight="24px"
+        android:layout_marginTop="20px"
+        android:scaleType="fitXY"
+        android:id="@+id/video_recycle_image"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="标题"
+        android:textSize="36px"
+        android:textColor="#333333"
+        android:layout_marginTop="10px"
+        android:layout_marginLeft="24px"
+        android:layout_marginRight="24px"
+        android:id="@+id/video_recycle_title"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="简介"
+        android:textSize="32px"
+        android:textColor="#333333"
+        android:layout_marginTop="10px"
+        android:layout_marginLeft="24px"
+        android:layout_marginRight="24px"
+        android:id="@+id/video_recycle_jianjie"/>
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10px"
+        android:layout_marginLeft="24px"
+        android:layout_marginRight="24px">
+
+        <TextView
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="价格"
+            android:textSize="28px"
+            android:textColor="#333333"
+            android:id="@+id/video_recycle_price"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="时间"
+            android:textSize="28px"
+            android:textColor="#333333"
+            android:id="@+id/video_recycle_time"/>
+
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <TextView
+        android:layout_width="900px"
+        android:layout_height="2px"
+        android:background="#dddddd"
+        android:layout_marginTop="10px"/>
+
+</com.zhy.autolayout.AutoLinearLayout>

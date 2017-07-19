@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="88px"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/shouye_wuyefei_zuo"
+            android:layout_width="120px"
+            android:layout_height="90px"
+            android:src="@mipmap/wode_zuo"
+            android:padding="18px"/>
+
+        <TextView
+            android:layout_marginRight="120px"
+            android:layout_width="0px"
+            android:layout_height="78px"
+            android:layout_weight="1"
+            android:text="物业费催收介绍"
+            android:gravity="center"
+            android:textSize="36px"
+            android:textColor="#333333"
+            />
+
+    </com.zhy.autolayout.AutoLinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="3px"
+        android:background="#dddddd"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/wuyefeicuishou"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"/>
+        </ScrollView>
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/shouye_wuyefei_zixunkefu"
+            android:textSize="36px"
+            android:layout_width="0px"
+            android:layout_weight="1"
+            android:layout_height="100px"
+            android:text="咨询客服"
+            android:background="@mipmap/zixunkefu"
+            android:textColor="#ffffff"/>
+
+        <Button
+            android:id="@+id/shouye_wuyefei_woyaozixun"
+            android:textSize="36px"
+            android:layout_width="0px"
+            android:layout_weight="1"
+            android:layout_height="100px"
+            android:text="我要委托"
+            android:background="@mipmap/changjianwenti"
+            android:textColor="#ffffff"/>
+
+    </com.zhy.autolayout.AutoLinearLayout>
+
+</com.zhy.autolayout.AutoLinearLayout>

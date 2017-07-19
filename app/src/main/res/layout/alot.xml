@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+               >
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:background="@mipmap/wenbenyubg"
+        android:layout_width="match_parent"
+        android:layout_height="160px"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_marginRight="24px"
+        android:gravity="center"
+        android:layout_marginLeft="24px"
+        android:id="@+id/alot_tel"
+        android:layout_width="match_parent"
+        android:layout_height="80px"
+        android:textSize="32px"
+        android:textColor="#1B8AEB"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="#dddddd"/>
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60px"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/alot_quxiao"
+            android:textSize="32px"
+            android:textColor="#1B8AEB"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0px"
+            android:layout_height="80px"
+            android:text="取消"/>
+        <TextView
+            android:layout_width="2px"
+            android:layout_height="80px"
+            android:background="#dddddd"/>
+
+        <Button
+            android:id="@+id/alot_queding"
+            android:textSize="32px"
+            android:textColor="#1B8AEB"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0px"
+            android:layout_height="80px"
+            android:text="呼叫"/>
+
+    </com.zhy.autolayout.AutoLinearLayout>
+    </com.zhy.autolayout.AutoLinearLayout>
+</com.zhy.autolayout.AutoLinearLayout>

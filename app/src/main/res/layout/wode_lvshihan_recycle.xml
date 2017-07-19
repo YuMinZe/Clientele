@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="292px"
+    android:id="@+id/wode_lvlvshihan_ll">
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50px"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="32px"
+            android:textColor="#39a7b6"
+            android:text="律师函"
+            android:layout_marginLeft="24px"/>
+
+        <TextView
+            android:id="@+id/wode_lvlvshihan_price"
+            android:textSize="32px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="100元(已付款)"
+            android:layout_marginRight="24px"/>
+
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="#dddddd"/>
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50px"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingTop="10px">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="32px"
+            android:textColor="#39a7b6"
+            android:text="用户:"
+            android:layout_marginLeft="24px"/>
+
+        <TextView
+            android:id="@+id/wode_lvlvshihan_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="找律师"
+            android:layout_marginRight="24px"/>
+
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="140px">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="32px"
+            android:textColor="#39a7b6"
+            android:text="回答内容:"
+            android:layout_marginLeft="24px"/>
+
+        <TextView
+            android:id="@+id/wode_lvlvshihan_message"
+            android:layout_marginLeft="24px"
+            android:layout_marginRight="24px"
+            android:textSize="32px"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="\t\t\t\t\t\t\t\t塑料袋服了你肯定是跟你聊的送给你了困难的三个路口"/>
+
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50px"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="购买时间:"
+            android:textColor="#39a7b6"
+            android:textSize="28px"/>
+
+        <TextView
+            android:id="@+id/wode_lvlvshihan_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2017.5.6"
+            android:layout_marginRight="24px"
+            android:textSize="28px"/>
+
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20px"
+        android:background="#dddddd"/>
+
+</com.zhy.autolayout.AutoLinearLayout>

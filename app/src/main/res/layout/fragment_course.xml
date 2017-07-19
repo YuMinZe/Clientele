@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0px"
+            android:layout_height="2px"
+            android:layout_weight="1"
+            android:background="#dddddd"/>
+
+        <TextView
+            android:layout_width="0px"
+            android:layout_height="2px"
+            android:layout_weight="1"
+            android:background="#ffffff"/>
+
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <com.cjj.MaterialRefreshLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:id="@+id/shouye_kecheng_mater"
+        app:overlay="false"
+        app:wave_show="true"
+        app:wave_color="@color/material_green"
+        app:wave_height_type="higher">
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/shouye_kecheng_recycler" />
+
+    </com.cjj.MaterialRefreshLayout>
+    <TextView
+        android:id="@+id/kecheng_shangla"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="已加载全部内容"
+        android:textSize="24px"
+        android:gravity="center"/>
+
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="101px"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:id="@+id/kecheng_zixunkefu"
+            android:layout_width="0dp"
+            android:layout_height="100px"
+            android:layout_weight="1"
+            android:text="咨询客服"
+            android:textSize="36px"
+            android:background="@mipmap/zixunkefu"/>
+
+        <TextView
+            android:layout_width="2px"
+            android:layout_height="match_parent"
+            android:background="#dddddd"/>
+
+        <Button
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:background="@mipmap/changjianwenti"
+            android:layout_width="0dp"
+            android:layout_height="100px"
+            android:layout_weight="1"
+            android:text="报名"
+            android:textSize="36px"
+            android:id="@+id/kecheng_woyaoweituo"/>
+
+    </com.zhy.autolayout.AutoLinearLayout>
+</com.zhy.autolayout.AutoLinearLayout>

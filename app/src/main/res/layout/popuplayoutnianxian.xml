@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:background="#ffffff"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+                android:id="@+id/guanbipop2">
+
+    <TextView
+        android:id="@+id/popupwindow_haoping"
+        android:layout_margin="10px"
+        android:background="#ffffff"
+        android:gravity="center_horizontal"
+        android:layout_width="150px"
+        android:layout_height="wrap_content"
+        android:textSize="30px"
+        android:text="好评"/>
+
+    <TextView
+        android:layout_width="170px"
+        android:layout_height="2px"
+        android:background="#dddddd"/>
+
+    <TextView
+        android:id="@+id/popupwindow_nianxian"
+        android:layout_margin="10px"
+        android:background="#ffffff"
+        android:gravity="center_horizontal"
+        android:layout_width="150px"
+        android:layout_height="wrap_content"
+        android:textSize="30px"
+        android:text="执业年限"/>
+
+
+
+</com.zhy.autolayout.AutoLinearLayout>

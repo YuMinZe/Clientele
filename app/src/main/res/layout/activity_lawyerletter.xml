@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="88px"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/shouye_lvshihan_zuo"
+            android:layout_width="95px"
+            android:layout_height="88px"
+            android:src="@mipmap/wode_zuo"
+            android:padding="17px"/>
+
+        <TextView
+            android:layout_marginRight="95px"
+            android:layout_width="0px"
+            android:layout_height="78px"
+            android:layout_weight="1"
+            android:text="律师函"
+            android:gravity="center"
+            android:textSize="36px"
+            android:textColor="#333333"
+            />
+
+    </com.zhy.autolayout.AutoLinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="3px"
+        android:background="#dddddd"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1">
+
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+    <ImageView
+        android:scaleType="fitXY"
+        android:layout_width="match_parent"
+        android:layout_height="340px"
+        android:src="@mipmap/zixuntu"/>
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20px"
+        android:background="#f2f2f2"/>
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60px"
+        android:layout_marginLeft="24px"
+        android:text="什么是律师函?"
+        android:textSize="32px"
+        android:gravity="center_vertical"
+        android:textColor="#39a7b6"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10px"
+        android:background="#f2f2f2"/>
+    <TextView
+        android:padding="12px"
+        android:layout_width="match_parent"
+        android:layout_height="300px"
+        android:textSize="32px"
+        android:layout_marginTop="10px"
+        android:layout_marginRight="24px"
+        android:textColor="#666666"
+        android:layout_marginLeft="24px"
+        android:text="律师函是指律师接受客户的委托就有关事实或法律问题进行披露、评价，进而提出要求以达到一定效果而制作、发送的专业法律文书。律师函的作用包括但不限于：以便捷的方式追回债权；顺延诉讼时效；澄清事实、制止不法的侵权行为；履行相关法律告知义务；通知解除合同；达成庭外和解协议。"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20px"
+        android:background="#f2f2f2"/>
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60px"
+        android:textSize="32px"
+        android:gravity="center_vertical"
+        android:textColor="#39a7b6"
+        android:text="服务流程"
+        android:layout_marginLeft="24px"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20px"
+        android:background="#f2f2f2"/>
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="154px"
+        android:orientation="horizontal"
+        >
+
+        <com.zhy.autolayout.AutoRelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/iv"
+                android:layout_width="40px"
+                android:layout_height="40px"
+                android:src="@mipmap/feiquerenqiu"
+                android:layout_centerInParent="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="3px"
+                android:background="#dddddd"
+                android:layout_toRightOf="@id/iv"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="填写信息"
+                android:gravity="center_horizontal"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="20px"
+                android:textColor="#333333"
+                android:textSize="28px"/>
+
+        </com.zhy.autolayout.AutoRelativeLayout>
+
+        <com.zhy.autolayout.AutoRelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/iv1"
+                android:layout_width="40px"
+                android:layout_height="40px"
+                android:src="@mipmap/quedingqiu"
+                android:layout_centerInParent="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="3px"
+                android:background="#dddddd"
+                android:layout_toRightOf="@id/iv1"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="3px"
+                android:background="#dddddd"
+                android:layout_toLeftOf="@id/iv1"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="支付费用"
+                android:gravity="center_horizontal"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="20px"
+                android:textColor="#333333"
+                android:textSize="28px"/>
+
+
+        </com.zhy.autolayout.AutoRelativeLayout>
+
+        <com.zhy.autolayout.AutoRelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/iv2"
+                android:layout_width="40px"
+                android:layout_height="40px"
+                android:src="@mipmap/quedingqiu"
+                android:layout_centerInParent="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="3px"
+                android:background="#dddddd"
+                android:layout_toRightOf="@id/iv2"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="3px"
+                android:background="#dddddd"
+                android:layout_toLeftOf="@id/iv2"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="律师接洽"
+                android:gravity="center_horizontal"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="20px"
+                android:textColor="#333333"
+                android:textSize="28px"/>
+
+
+        </com.zhy.autolayout.AutoRelativeLayout>
+
+        <com.zhy.autolayout.AutoRelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/iv3"
+                android:layout_width="40px"
+                android:layout_height="40px"
+                android:src="@mipmap/quedingqiu"
+                android:layout_centerInParent="true"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="3px"
+                android:background="#dddddd"
+                android:layout_toLeftOf="@id/iv3"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="律师提供服务"
+                android:gravity="center_horizontal"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="20px"
+                android:textColor="#333333"
+                android:textSize="28px"/>
+
+
+        </com.zhy.autolayout.AutoRelativeLayout>
+
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20px"
+        android:background="#f2f2f2"/>
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="64px"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="52px"
+            android:layout_height="52px"
+            android:src="@mipmap/xinxi"
+            android:layout_marginLeft="24px"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24px"
+            android:textColor="#666666"
+            android:text="1.当事人需要和律师深入沟通,并向律师明确已方的诉求。"
+            android:layout_marginLeft="24px"/>
+
+    </com.zhy.autolayout.AutoLinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20px"
+        android:background="#f2f2f2"/>
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="64px"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="52px"
+            android:layout_height="52px"
+            android:src="@mipmap/qicao"
+            android:layout_marginLeft="24px"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24px"
+            android:textColor="#666666"
+            android:text="2.律师起草律师函并在律师函上签字盖章所发律师函。"
+            android:layout_marginLeft="24px"/>
+
+    </com.zhy.autolayout.AutoLinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20px"
+            android:background="#f2f2f2"/>
+
+        <TextView
+            android:id="@+id/lvshihan_price"
+            android:layout_width="match_parent"
+            android:layout_height="60px"
+            android:gravity="center_vertical"
+            android:textSize="32px"
+            android:textColor="#f2bd6a"
+            android:text="价格: ￥999.0"
+            android:layout_marginLeft="24px"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20px"
+            android:background="#f2f2f2"/>
+
+
+    </com.zhy.autolayout.AutoLinearLayout>
+    </ScrollView>
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/lvshihan_zixunkefu"
+            android:layout_width="0dp"
+            android:layout_height="100px"
+            android:layout_weight="1"
+            android:text="咨询客服"
+            android:background="@mipmap/zixunkefu"
+            android:textColor="#ffffff"
+            android:textSize="36px"/>
+
+        <Button
+            android:id="@+id/lvshihan_tianxiexinxin"
+            android:layout_width="0dp"
+            android:layout_height="100px"
+            android:layout_weight="1"
+            android:text="填写信息并购买"
+            android:background="@mipmap/changjianwenti"
+            android:textColor="#ffffff"
+            android:textSize="36px"/>
+
+    </com.zhy.autolayout.AutoLinearLayout>
+</com.zhy.autolayout.AutoLinearLayout>

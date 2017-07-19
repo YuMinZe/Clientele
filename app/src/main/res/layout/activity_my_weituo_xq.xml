@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="88px"
+        android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/wode_weituoxq_fanhui"
+        android:layout_width="95px"
+        android:layout_height="88px"
+        android:src="@mipmap/wode_zuo"
+        android:padding="17px"/>
+
+        <TextView
+        android:layout_marginRight="95px"
+        android:layout_width="0px"
+        android:layout_height="88px"
+        android:layout_weight="1"
+        android:text="委托详情"
+        android:gravity="center"
+        android:textSize="36px"
+        android:textColor="#333333"
+        />
+
+</com.zhy.autolayout.AutoLinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="3px"
+        android:background="#dddddd"/>
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="400px"
+        android:orientation="vertical"
+        android:background="@mipmap/juxingbeijing"
+        android:paddingLeft="24px"
+        android:paddingRight="24px">
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="案件标题 :  "
+                android:textSize="30px"
+                android:textColor="#39a7b6"/>
+
+            <TextView
+                android:id="@+id/wode_weituoxq_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="时间"
+                android:textSize="30px"
+                />
+
+        </com.zhy.autolayout.AutoLinearLayout>
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="案件状态 :  "
+                android:textSize="30px"
+                android:textColor="#39a7b6"/>
+
+            <TextView
+                android:id="@+id/wode_weituoxq_zhuangtai"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="已发布竞标中"
+                android:textSize="30px"
+                />
+
+        </com.zhy.autolayout.AutoLinearLayout>
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="委托时间 :  "
+                android:textSize="30px"
+                android:textColor="#39a7b6"/>
+
+            <TextView
+                android:id="@+id/wode_weituoxq_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2017-03-22 12.44.24"
+                android:textSize="30px"
+                />
+
+        </com.zhy.autolayout.AutoLinearLayout>
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="委托报价 :  "
+                android:textSize="30px"
+                android:textColor="#39a7b6"/>
+
+            <TextView
+                android:id="@+id/wode_weituoxq_baojia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="666-666元"
+                android:textSize="30px"
+                />
+
+        </com.zhy.autolayout.AutoLinearLayout>
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="案件类型 :  "
+                android:textSize="30px"
+                android:textColor="#39a7b6"/>
+
+            <TextView
+                android:id="@+id/wode_weituoxq_leixing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="30px"
+                />
+
+        </com.zhy.autolayout.AutoLinearLayout>
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="诉讼地区 :  "
+                android:textSize="30px"
+                android:textColor="#39a7b6"/>
+
+            <TextView
+                android:id="@+id/wode_weituoxq_diqu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="北京"
+                android:textSize="30px"
+                />
+
+        </com.zhy.autolayout.AutoLinearLayout>
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="案件详情 :  "
+                android:textSize="30px"
+                android:textColor="#39a7b6"/>
+
+        </com.zhy.autolayout.AutoLinearLayout>
+
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="#dddddd"/>
+
+    <TextView
+        android:id="@+id/wode_weituoxq_xiangqing"
+        android:layout_width="match_parent"
+        android:layout_height="170px"
+        android:background="@mipmap/juxingbeijing"
+        android:padding="24px"
+        android:textSize="30px"
+        android:text="暗示法拉盛发布拉萨办法把老款上发布了"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20px"
+        android:background="#dddddd"/>
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="180px"
+        android:orientation="vertical"
+        android:background="@mipmap/juxingbeijing"
+        android:padding="24px">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我上传的资料 :  "
+            android:textSize="30px"
+            android:textColor="#39a7b6"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/wode_weituoxq_recycleziliao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30px"
+        android:textColor="#39a7b6"
+        android:text="参与竞标的律师"
+        android:paddingLeft="24px"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/wode_weituoxq_recyclelxshi"/>
+
+
+
+</com.zhy.autolayout.AutoLinearLayout>

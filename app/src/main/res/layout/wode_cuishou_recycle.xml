@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="262px">
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50px"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="32px"
+            android:textColor="#39a7b6"
+            android:text="物业费催收"
+            android:layout_marginLeft="24px"/>
+
+        <TextView
+            android:textColor="#1afa29"
+            android:gravity="center"
+            android:id="@+id/wode_cuishou_shenhe"
+            android:textSize="32px"
+            android:layout_width="150px"
+            android:layout_height="wrap_content"
+            android:text="正在审核"
+            android:background="@mipmap/biankuang"
+            android:layout_marginRight="24px"/>
+
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="#dddddd"/>
+
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="140px">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="32px"
+            android:textColor="#39a7b6"
+            android:text="内容:"
+            android:layout_marginLeft="24px"/>
+
+        <TextView
+            android:id="@+id/wode_cuishou_message"
+            android:layout_marginLeft="24px"
+            android:layout_marginRight="24px"
+            android:textSize="32px"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="\t\t\t\t塑料袋服了你肯定是跟你聊的送给你了困难的三个路口"/>
+
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50px"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textColor="#39a7b6"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="物业催收"
+            android:layout_marginLeft="24px"/>
+
+        <TextView
+            android:textColor="#39a7b6"
+            android:id="@+id/wode_cuishou_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="时间:2017.5.6"
+            android:layout_marginRight="24px"
+            />
+
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20px"
+        android:background="#dddddd"/>
+
+</com.zhy.autolayout.AutoLinearLayout>

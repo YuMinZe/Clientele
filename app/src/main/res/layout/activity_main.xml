@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.zhy.autolayout.AutoFrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/zhu_fragment"/>
+ 
+    <RadioGroup
+        android:id="@+id/radiogroup"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="98px"
+        >
+
+            <ImageView
+                android:id="@+id/shouye"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:src="@mipmap/yes_shouye"
+                android:paddingTop="6px"
+                android:paddingLeft="50px"
+                android:paddingBottom="6px"/>
+
+
+            <ImageView
+                android:id="@+id/zixun"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:src="@mipmap/no_zixun"
+                android:paddingTop="6px"
+                android:paddingLeft="50px"
+                android:paddingBottom="6px"/>
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:paddingTop="5px"
+            >
+
+            <com.zll.wuye.fragment.information.dian.BGABadgeImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/xiaoxi"
+                android:layout_width="100px"
+                android:layout_height="match_parent"
+                android:src="@mipmap/no_xiaoxi"
+                app:badge_gravity="rightTop"
+                app:badge_dragable="true"
+                app:badge_padding="5dp"
+                android:paddingBottom="3px"
+                android:layout_marginRight="20px"
+                android:layout_marginLeft="60px"/>
+        </com.zhy.autolayout.AutoLinearLayout>
+
+            <ImageView
+                android:id="@+id/wode"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:src="@mipmap/no_wode"
+                android:paddingTop="6px"
+                android:paddingLeft="50px"
+                android:paddingBottom="6px"
+                android:paddingRight="50px"/>
+
+    </RadioGroup>
+
+</com.zhy.autolayout.AutoLinearLayout>

@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="88px"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/shouye_weituoxiangqing_zuo"
+            android:layout_width="95px"
+            android:layout_height="88px"
+            android:src="@mipmap/wode_zuo"
+            android:padding="17px"/>
+
+        <TextView
+            android:layout_marginRight="95px"
+            android:layout_width="0px"
+            android:layout_height="78px"
+            android:layout_weight="1"
+            android:text="物业费催收"
+            android:gravity="center"
+            android:textSize="36px"
+            android:textColor="#333333"
+            />
+
+    </com.zhy.autolayout.AutoLinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="3px"
+        android:background="#dddddd"/>
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="154px"
+        android:orientation="horizontal"
+        android:background="#f2f2f2">
+
+        <com.zhy.autolayout.AutoRelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/iv"
+                android:layout_width="40px"
+                android:layout_height="40px"
+                android:src="@mipmap/feiquerenqiu"
+                android:layout_centerInParent="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="3px"
+                android:background="#dddddd"
+                android:layout_toRightOf="@id/iv"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="描述委托"
+                android:gravity="center_horizontal"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="20px"
+                android:textColor="#333333"
+                android:textSize="28px"/>
+
+        </com.zhy.autolayout.AutoRelativeLayout>
+
+        <com.zhy.autolayout.AutoRelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/iv1"
+                android:layout_width="40px"
+                android:layout_height="40px"
+                android:src="@mipmap/quedingqiu"
+                android:layout_centerInParent="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="3px"
+                android:background="#dddddd"
+                android:layout_toRightOf="@id/iv1"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="3px"
+                android:background="#dddddd"
+                android:layout_toLeftOf="@id/iv1"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="平台审核"
+                android:gravity="center_horizontal"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="20px"
+                android:textColor="#333333"
+                android:textSize="28px"/>
+
+
+        </com.zhy.autolayout.AutoRelativeLayout>
+
+        <com.zhy.autolayout.AutoRelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/iv2"
+                android:layout_width="40px"
+                android:layout_height="40px"
+                android:src="@mipmap/quedingqiu"
+                android:layout_centerInParent="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="3px"
+                android:background="#dddddd"
+                android:layout_toRightOf="@id/iv2"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="3px"
+                android:background="#dddddd"
+                android:layout_toLeftOf="@id/iv2"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="催收物业费"
+                android:gravity="center_horizontal"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="20px"
+                android:textColor="#333333"
+                android:textSize="28px"/>
+
+
+        </com.zhy.autolayout.AutoRelativeLayout>
+
+        <com.zhy.autolayout.AutoRelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/iv3"
+                android:layout_width="40px"
+                android:layout_height="40px"
+                android:src="@mipmap/quedingqiu"
+                android:layout_centerInParent="true"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="3px"
+                android:background="#dddddd"
+                android:layout_toLeftOf="@id/iv3"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="支付律师费"
+                android:gravity="center_horizontal"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="20px"
+                android:textColor="#333333"
+                android:textSize="28px"/>
+
+
+        </com.zhy.autolayout.AutoRelativeLayout>
+
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="#dddddd"/>
+
+    <EditText
+        android:id="@+id/wuyefei_message"
+        android:enabled="true"
+        android:gravity="top"
+        android:layout_width="700px"
+        android:layout_height="300px"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20px"
+        android:padding="10px"
+        android:hint="请简要描述催收需求"
+        android:textSize="28px"
+        android:background="@mipmap/wenbenyubg"/>
+
+
+
+    <EditText
+        android:id="@+id/wuyefei_name"
+        android:layout_width="700px"
+        android:layout_height="70px"
+        android:layout_marginTop="30px"
+        android:hint="您的姓名"
+        android:paddingLeft="10px"
+        android:layout_gravity="center_horizontal"
+        android:background="@mipmap/wenbenyubg"
+        android:textSize="28px"/>
+
+    <EditText
+        android:id="@+id/wuyefei_photo"
+        android:layout_width="700px"
+        android:layout_height="70px"
+        android:layout_marginTop="20px"
+        android:hint="您的手机号"
+        android:paddingLeft="10px"
+        android:layout_gravity="center_horizontal"
+        android:background="@mipmap/wenbenyubg"
+        android:textSize="28px"/>
+
+    <Button
+        android:id="@+id/wuyefei_tijiao"
+        android:textSize="32px"
+        android:layout_width="700px"
+        android:layout_height="70px"
+        android:text="提交"
+        android:layout_marginTop="40px"
+        android:background="@mipmap/wode_denglu_anniu"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ffffff"/>
+
+</com.zhy.autolayout.AutoLinearLayout>

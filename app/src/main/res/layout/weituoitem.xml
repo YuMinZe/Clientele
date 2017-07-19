@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="288px"
+                android:id="@+id/wode_weituo_item">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20px"
+        android:background="#dddddd"/>
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="46px"
+        android:orientation="horizontal"
+        android:background="#ffffff"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="竞标中"
+            android:textColor="#f57917"
+            android:textSize="30px"
+            android:layout_marginLeft="24px"
+            android:id="@+id/panduan_zhuangtai"/>
+
+        <TextView
+            android:id="@+id/wode_weituo_baojia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="24px"
+            android:text="报价 : 1000-2000元"
+            android:textSize="24px"/>
+
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="#dddddd"/>
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="218px">
+
+        <ImageView
+            android:id="@+id/wode_weituo_touxiang"
+            android:layout_width="80px"
+            android:layout_height="80px"
+            android:src="@mipmap/wode_denglu_logo"
+            android:layout_marginTop="20px"
+            android:layout_marginLeft="24px"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="用户姓名: "
+            android:textSize="24px"
+            android:textColor="#39a7b6"
+            android:layout_marginTop="20px"
+            android:layout_marginLeft="124px"/>
+
+        <TextView
+            android:id="@+id/wode_weituo_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="中律联"
+            android:textSize="24px"
+            android:layout_marginTop="20px"
+            android:layout_marginLeft="240px"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="回答内容: "
+            android:textSize="20px"
+            android:textColor="#39a7b6"
+            android:layout_marginTop="55px"
+            android:layout_marginLeft="124px"/>
+
+        <TextView
+            android:id="@+id/wode_weituo_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\t\t\t\t\t中律联齐鲁晚报人类前往别人了我去看了让我去全方位分辨率为本法律将本文发表论文被"
+            android:textSize="20px"
+            android:layout_marginTop="55px"
+            android:layout_marginLeft="124px"
+            android:layout_marginRight="24px"/>
+
+        <TextView
+            android:id="@+id/wode_weituo_leixing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="案件类型"
+            android:textColor="#39a7b6"
+            android:layout_marginLeft="24px"
+            android:textSize="22px"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20px"/>
+
+        <TextView
+            android:id="@+id/wode_weituo_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="时间:"
+            android:textColor="#39a7b6"
+            android:textSize="22px"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="20px"
+            android:layout_marginRight="24px"/>
+
+    </com.zhy.autolayout.AutoRelativeLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="#dddddd"/>
+
+</com.zhy.autolayout.AutoLinearLayout>
