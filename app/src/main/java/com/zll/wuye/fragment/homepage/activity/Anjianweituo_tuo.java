@@ -95,6 +95,7 @@ public class Anjianweituo_tuo extends AutoLayoutActivity implements View.OnClick
     private int sum=0;
     private RecyclerView scdtp;
     private double wtprice;
+    private KeFuBean.BodyBean bodyBean;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -143,6 +144,8 @@ public class Anjianweituo_tuo extends AutoLayoutActivity implements View.OnClick
             public void onClick(View v) {
 
                 dedaoshuju();
+                int xiaoint = Integer.parseInt(xiao);
+                int daint = Integer.parseInt(da);
                 if(title.equals("")||title.length()<1){
                     Toast.makeText(Anjianweituo_tuo.this,"请输入标题",Toast.LENGTH_SHORT).show();
                 }else if(message.equals("")||message.length()<0){
@@ -161,6 +164,10 @@ public class Anjianweituo_tuo extends AutoLayoutActivity implements View.OnClick
                     Toast.makeText(Anjianweituo_tuo.this,"请输入您的手机号码",Toast.LENGTH_SHORT).show();
                 }else if(!isPhoneNum(photo)){
                     Toast.makeText(Anjianweituo_tuo.this,"您输入的手机号不合法",Toast.LENGTH_SHORT).show();
+                }else if(bodyBean.getCasePrice()>xiaoint){
+                    Toast.makeText(Anjianweituo_tuo.this,"您输入的最小报价不能小于委托的报价",Toast.LENGTH_SHORT).show();
+                }else if(daint<xiaoint){
+                    Toast.makeText(Anjianweituo_tuo.this,"最大报价不能小于最小报价",Toast.LENGTH_SHORT).show();
                 }else{
                    leixing(leixingtv);
 
@@ -509,6 +516,7 @@ public class Anjianweituo_tuo extends AutoLayoutActivity implements View.OnClick
         HttpOkGo.okgoget(url, KeFuBean.class, new HttpOkGo.okget<KeFuBean>() {
             @Override
             public void shuju(ArrayList<KeFuBean> list) {
+                bodyBean = list.get(0).getBody();
                 wtprice = list.get(0).getBody().getCasePrice();
 
             }
