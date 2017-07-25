@@ -151,4 +151,9 @@ public class Consult extends AutoLayoutActivity {
                 });
     }
 
+    @Override
+    protected void onResume() {
+        super.onResume();
+        initView();
+    }
 }

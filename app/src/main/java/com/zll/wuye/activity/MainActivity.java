@@ -6,6 +6,7 @@ import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.support.v4.app.FragmentManager;
 import android.support.v7.app.AlertDialog;
+import android.util.Log;
 import android.view.View;
 import android.view.Window;
 import android.widget.Button;
@@ -42,7 +43,7 @@ public class MainActivity extends AutoLayoutActivity implements View.OnClickList
     private ImageView wode;
     private RadioGroup radiogroup;
     private FragmentManager mFragmentManager;
-    private int p=0;
+    private String p="";
     private int mm=0;
     private AlertDialog dialog;
 
@@ -145,21 +146,25 @@ public class MainActivity extends AutoLayoutActivity implements View.OnClickList
     @Override
     protected void onResume() {
         super.onResume();
-        if(p==1){
+        if(p.equals("alipay")){
             MyPageFragment myPageFragment =  new MyPageFragment();
             mFragmentManager.beginTransaction().replace(R.id.zhu_fragment,myPageFragment).commit();
             shouye.setImageResource(R.mipmap.no_shouye);
             zixun.setImageResource(R.mipmap.no_zixun);
             xiaoxi.setImageResource(R.mipmap.no_xiaoxi);
             wode.setImageResource(R.mipmap.yes_wode);
-            p=0;
+            p="";
+        }
+        else{
+
         }
     }
 
     @Override
     protected void onNewIntent(Intent intent) {
         super.onNewIntent(intent);
-        p=1;
+        String alipay = intent.getStringExtra("alipay");
+        p=alipay;
     }
 
     private void huoqu() {

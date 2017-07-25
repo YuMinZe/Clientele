@@ -34,6 +34,7 @@ public class PaymentSuccess extends AppCompatActivity{
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(PaymentSuccess.this,MainActivity.class);
+                intent.putExtra("alipay","alipay");
                 startActivity(intent);
 
             }

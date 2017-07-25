@@ -66,13 +66,11 @@ public class MyPageFragment extends BaseFragment {
     @Override
     public View initview(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         mView = View.inflate(getActivity(), R.layout.mypagefragment, null);
-        Log.i("zzz",0+"");
         return mView;
     }
 
     @Override
     public void initdata() {
-        Log.i("zzz",2+"");
         boolean b = Panduan.isNetworkConnected(getActivity());
         if(!b){
             Toast.makeText(getActivity(),"请检查网络",Toast.LENGTH_SHORT).show();
@@ -231,6 +229,7 @@ public class MyPageFragment extends BaseFragment {
                 }
             }
         });
+
     }
 
     public void dedaomessage(){
@@ -272,5 +271,16 @@ public class MyPageFragment extends BaseFragment {
                         }
                     });
 
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        if(token==null || token.length()<1){
+            mWode_name.setText( "登录/注册");
+            mWode_xinxi.setText("");
+        }else{
+            dedaomessage();
+        }
     }
 }

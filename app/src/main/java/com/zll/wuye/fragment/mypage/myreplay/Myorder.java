@@ -129,6 +129,7 @@ public class Myorder extends AutoLayoutActivity {
     protected void onResume() {
         super.onResume();
         if(list.size()>0){
+            list.clear();
             initview();
             qingqiu("https://wuye.kylinlaw.com/order/user/list?token="+token);
             adapter.notifyDataSetChanged();

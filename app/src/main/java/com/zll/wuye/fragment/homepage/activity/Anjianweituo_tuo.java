@@ -164,13 +164,8 @@ public class Anjianweituo_tuo extends AutoLayoutActivity implements View.OnClick
                     Toast.makeText(Anjianweituo_tuo.this,"请输入您的手机号码",Toast.LENGTH_SHORT).show();
                 }else if(!isPhoneNum(photo)){
                     Toast.makeText(Anjianweituo_tuo.this,"您输入的手机号不合法",Toast.LENGTH_SHORT).show();
-                }else if(bodyBean.getCasePrice()>xiaoint){
-                    Toast.makeText(Anjianweituo_tuo.this,"您输入的最小报价不能小于委托的报价",Toast.LENGTH_SHORT).show();
-                }else if(daint<xiaoint){
-                    Toast.makeText(Anjianweituo_tuo.this,"最大报价不能小于最小报价",Toast.LENGTH_SHORT).show();
                 }else{
                    leixing(leixingtv);
-
                 }
             }
         });

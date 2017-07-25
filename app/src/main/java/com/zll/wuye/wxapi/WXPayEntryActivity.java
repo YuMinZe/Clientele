@@ -39,6 +39,7 @@ public class WXPayEntryActivity extends Activity implements IWXAPIEventHandler{
 			@Override
 			public void onClick(View v) {
 					Intent intent = new Intent(WXPayEntryActivity.this, MainActivity.class);
+					intent.putExtra("alipay","alipay");
 					startActivity(intent);
 			}
 		});
