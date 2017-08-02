@@ -52,7 +52,7 @@ public class PhotozixunAdapter extends RecyclerView.Adapter<PhotozixunViewVolder
 
 
         holder.jingyan.setText(body.get(position).getPeriod()+"  年");
-        holder.jiage.setText("￥"+body.get(position).getMeetPrice()+"元/次");
+        holder.jiage.setText("");
         holder.xiangqing.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
